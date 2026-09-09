@@ -12,3 +12,31 @@ li {
   padding: 0.5rem 0;
   border-bottom: 1px solid #ddd;
 }
+
+.filter-controls {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border: 2px solid #0366d6;
+  background-color: white;
+  color: #0366d6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #0366d6;
+  color: white;
+}
+
+.filter-btn:active {
+  background-color: #0256bd;
+}
